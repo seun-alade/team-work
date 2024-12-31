@@ -3,7 +3,7 @@ pipeline {
     environment {
         SSH_CRED = credentials('server-key')
         def CONNECT = 'ssh -o StrictHostKeyChecking=no ubuntu@35.182.153.38'
-        NEXUS_URL = 'http://99.79.191.44:8081/repository/workshop/'
+        NEXUS_URL = 'http://15.222.62.120:8081/repository/workshop-app/'
         NEXUS_CRED = credentials('nexus-credentials-id') // Add your Nexus credentials in Jenkins
         ARTIFACT_GROUP = 'com/example'
         ARTIFACT_ID = 'webapp'
