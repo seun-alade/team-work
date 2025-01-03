@@ -41,8 +41,7 @@ pipeline {
             echo 'Build failed. Cleaning up workspace...'
             cleanWs()
         }
-    }
-    
+    }  
 
     
 }
